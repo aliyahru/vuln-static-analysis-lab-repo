@@ -71,4 +71,4 @@ if __name__ == "__main__":
             f.write("This is a public note used by the lab application.\n")
 
     init_db()
-    app.run(debug=True)
+    app.run(debug=False)
